@@ -105,7 +105,7 @@ add_message_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES custom_msg_ros1
-#  CATKIN_DEPENDS rospy std_msgs
+  CATKIN_DEPENDS std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
