@@ -29,7 +29,8 @@ source ~/ros2_ws/install/setup.bash
 
 ## Shell 1
 ```
-Source your ros1 installation
+Source ROS 1 first: source /opt/ros/noetic/setup.bash
+Or: source home/catkin ws/devel/setup.bash
 Start roscore
 ```
 
